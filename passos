@@ -113,3 +113,8 @@ podendo passar o nome da coluna que vai armazenar a referencia de arquivo
 this.belongsTo(models.File,{ foreignKey: 'avatar_id})
 
 *hasMany() -> id de usuario dentro de varios registro de arquivos
+
+
+Regras de negocio
+lidando com database
+>>yarn add date-fns@next
