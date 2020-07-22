@@ -118,3 +118,22 @@ this.belongsTo(models.File,{ foreignKey: 'avatar_id})
 Regras de negocio
 lidando com database
 >>yarn add date-fns@next
+
+LIdando com Bandco de Dados Mongo DB
+subir contenner com Docker
+>> docker run --name mymongobarber -p 27017:27017 -d -t mongo
+verificar a funcionalidade= no navegador(localhost:27017)
+Instalar Mongoose
+>> yarn add mongoose
+>> sudo apt install mongodb-server
+>> mongod: inicializa o servidor de banco de dados
+
+
+
+/*Biblioteca de email*/
+>> yarn add nodemailer
+alguns serviços de email:
+Amazon SES, Mailgun, Sparkpost, Mandril (Mailchimp), Gmail, Mailtrap(amb dev)
+
+template de email
+>> yarn add express-handlebars nodemailer-express-handlebars
