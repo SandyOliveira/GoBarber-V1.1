@@ -19,7 +19,7 @@ class Mail {
        // this.configureTemplates();
 
     }
-/*
+
     configureTemplates() {
         const viewPath = resolve(__dirname,'..', 'app', 'views', 'emails');
 
@@ -36,7 +36,7 @@ class Mail {
            })
         );
     }
-*/
+
     sendMail(message){
         return this.transporter.sendMail({
             ...mailConfig.default,

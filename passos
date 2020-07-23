@@ -137,3 +137,16 @@ Amazon SES, Mailgun, Sparkpost, Mandril (Mailchimp), Gmail, Mailtrap(amb dev)
 
 template de email
 >> yarn add express-handlebars nodemailer-express-handlebars
+
+lidando com envios de emails
+>> docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+verificar error
+>> docker ps -a
+pega a imagem e da docker logs com o numero da imagem
+>> docker logs  95012d592fda
+
+Instalar bee queue ferramenta de fila
+>> yarn add bee-queue
+
+adiciona no package.json nos scripts: "queue": "nodemon src/queue.js" e execute:
+>> yarn queue
