@@ -150,3 +150,23 @@ Instalar bee queue ferramenta de fila
 
 adiciona no package.json nos scripts: "queue": "nodemon src/queue.js" e execute:
 >> yarn queue
+
+Lidando com datas
+abra no chrome, inspecionar, console e
+>>new Date().getTime()
+
+Lidando com exceções
+
+criar conta no sentry criar projeto e pegar a linha de codigo de instalação
+>> yarn add @sentry/node@5.20.0
+
+async não identifica erro então
+>> yarn add express-async-errors
+criando middlewares para error
+faz tratamentos de error
+>> yarn add youch
+
+
+
+carregando as configurações do arquivo .env
+>>yarn add dotenv
