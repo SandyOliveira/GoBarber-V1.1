@@ -145,6 +145,9 @@ verificar error
 pega a imagem e da docker logs com o numero da imagem
 >> docker logs  95012d592fda
 
+quando reiniciar o ambiente
+>> docker start redisbarber
+
 Instalar bee queue ferramenta de fila
 >> yarn add bee-queue
 
